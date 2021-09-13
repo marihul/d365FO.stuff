@@ -1,0 +1,73 @@
+{
+    "type": "object",
+    "properties": {
+        "ResultPageCurrent": {
+            "type": "integer"
+        },
+        "ResultHasMorePages": {
+            "type": "boolean"
+        },
+        "Data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "EnvironmentId": {},
+                    "ProjectId": {
+                        "type": "integer"
+                    },
+                    "EnvironmentName": {},
+                    "EnvironmentInfrastructure": {},
+                    "EnvironmentType": {},
+                    "EnvironmentGroup": {},
+                    "EnvironmentProduct": {},
+                    "EnvironmentEndpointBaseUrl": {},
+                    "DeploymentState": {},
+                    "TopologyDisplayName": {},
+                    "CurrentApplicationBuildVersion": {},
+                    "CurrentApplicationReleaseName": {},
+                    "CurrentPlatformReleaseName": {},
+                    "CurrentPlatformVersion": {},
+                    "DeployedOnUTC": {},
+                    "CloudStorageLocation": {},
+                    "DisasterRecoveryLocation": {},
+                    "DeploymentStatusDisplay": {},
+                    "CanStart": {},
+                    "CanStop": {}
+                },
+                "required": [
+                    "EnvironmentId",
+                    "EnvironmentName",
+                    "ProjectId",
+                    "EnvironmentInfrastructure",
+                    "EnvironmentType",
+                    "EnvironmentGroup",
+                    "EnvironmentProduct",
+                    "EnvironmentEndpointBaseUrl",
+                    "DeploymentState",
+                    "TopologyDisplayName",
+                    "CurrentApplicationBuildVersion",
+                    "CurrentApplicationReleaseName",
+                    "CurrentPlatformReleaseName",
+                    "CurrentPlatformVersion",
+                    "DeployedOnUTC",
+                    "CloudStorageLocation",
+                    "DisasterRecoveryLocation",
+                    "DeploymentStatusDisplay",
+                    "CanStart",
+                    "CanStop"
+                ]
+            }
+        },
+        "IsSuccess": {
+            "type": "boolean"
+        },
+        "OperationActivityId": {
+            "type": "string"
+        },
+        "ErrorMessage": {},
+        "VersionEOL": {
+            "type": "string"
+        }
+    }
+}

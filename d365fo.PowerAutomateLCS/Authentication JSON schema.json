@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "token_type": {
+            "type": "string"
+        },
+        "scope": {
+            "type": "string"
+        },
+        "expires_in": {
+            "type": "string"
+        },
+        "ext_expires_in": {
+            "type": "string"
+        },
+        "expires_on": {
+            "type": "string"
+        },
+        "not_before": {
+            "type": "string"
+        },
+        "resource": {
+            "type": "string"
+        },
+        "access_token": {
+            "type": "string"
+        },
+        "refresh_token": {
+            "type": "string"
+        }
+    }
+}
